@@ -116,7 +116,6 @@ p{
 }
 .main-content > div{
     width: calc(33.33% - 10px); 
-    height: 250px;
 }
 .above-maincontent a{
     font-size: 10px;
