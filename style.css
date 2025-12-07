@@ -98,7 +98,7 @@ p{
 .above-maincontent{
    display: flex;
    gap: 15px;
-   justify-content: space-evenly;
+   justify-content: flex-start;
 }
 .bellow-nav{
     margin-right:10px;
