@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none ;
+    color:rgb(0, 0, 0);
+}
+img{
+    cursor: pointer;
+}
+/* nav */
+
+.nav-flux{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+    padding: 5px;
+    gap: 8px;
+
+}
+
+.nav-end img{
+     width:15px;
+    height: 15px;
+}
+.nav-img{
+    width:15px;
+    height: 15px;
+}
+.menu-icon{
+   width: 15px; 
+   height: 15px;
+}
+.logo{
+    width: 30px; 
+   height: 20px;
+}
+.nav-start{
+    padding: 5px;
+}
+/* nav middle */
+
+.search-icon{
+   width: 15px; 
+   height: 15px;
+}
+.search{
+    width: 100px;       
+    height: 15px;       
+    padding: 5px 10px;  
+    border-radius: 10px; 
+    border: 0.1px solid #ccc;
+    font-size: 14px;  
+}
+.mic-icon{
+    width: 15px;
+    height: 15px;
+}
+.search-box{
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 5px;
+}
+.search-box input{
+    width: 200px;
+    border: 0px;
+    outline: 0px;
+    background: transparent;
+}
+/* side-bar */
+.short-cut img{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    
+}
+p{
+    font-size: xx-small;
+    padding-top: 2px;
+}
+.side-bar{
+    width: 40px;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+}
+.above-maincontent{
+   display: flex;
+   gap: 15px;
+   justify-content: flex-start;
+}
+.bellow-nav{
+    margin-right:10px;
+    padding: 3px;
+    width: 100%;
+    height: 44px;
+}
+.main-content{
+    padding: 6px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.main-content > div{
+    width: calc(33.33% - 10px);   /* 3 columns */
+}
+.above-maincontent a{
+    font-size: 10px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #ccc;
+}
+.main-content img{
+    width: 100%;  
+    height: 150px;
+    border-radius: 10px;
+}
+/* items */
+.channel{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.channel img{
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    border-radius:10px ;
+}
+.about-channel{
+    padding-left: 25px;
+}
